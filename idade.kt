@@ -5,7 +5,7 @@ fun idade (ano:Int): Int{
 
 fun main () {
     val leitura= Scanner(System.`in`)
-    print ("Digite o ano de nascimento\t")
+    println ("Digite o ano de nascimento\t")
     var ano= leitura.nexInt ()
-
+	println (idade(ano))
 }
